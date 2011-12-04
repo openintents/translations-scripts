@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <main>
 	<translators>Launchpad Contributions:
-  Debug Mode https://launchpad.net/~thedebugmode
-  OpenIntents devs https://launchpad.net/~openintents-devs</translators>
+  Tomasz Zieliński https://launchpad.net/~tomek0517</translators>
 	<description application="filemanager/FileManager">
 		<!--  OI File Manager -->
 		<!--  -->
@@ -11,28 +10,28 @@
 		<!--  (Put each sentence in a separate line. Each sentence is translated separately) -->
 		<!--  -->
 		<!--  Description of application -->
-		<string>Der OI Dateimanager ermöglicht das Durchstöbern der SD Karte, die Erstellung von Ordnern und das Umbenennen, Kopieren, Verschieben und Löschen von Dateien.</string>
-		<string>Es dient auch als Erweiterung für andere Applikationen zur Darstellung von "Öffnen" und "Speichern" Dialogen.</string>
+		<string>OI File Manager pozwala przeglądać karty SD, tworzyć katalogi, kopiować, przenosić i usuwać pliki.</string>
+		<string>Działa również jako rozszerzenie do innych aplikacji do wyświetlenia okien dialogowych otwierania i zapisywania plików.</string>
 		<emptyline/>
-		<string>Diese Applikation ist werbefrei und benötigt keine Internetverbindung.</string>
+		<string>Ta aplikacja jest darmowa i nie wymaga dostępu do internetu.</string>
 		<emptyline/>
-		<string>Für eine vollständige Liste der Änderungen und häufig gestellten Fragen besuchen sie bitte:</string>
+		<string>Aby zobaczyć pełną listę zmian oraz FAQ, odwiedź:</string>
 		<link href="http://www.openintents.org"/>
 		<emptyline/>
-		<string>Sie können uns mit der Verbesserung der Übersetzung in ihre Sprache auf Launchpad unterstützen:</string>
+		<string>Możesz poprawić tłumaczenie na Twój język:</string>
 		<link href="https://translations.launchpad.net/openintents/trunk"/>
 		<emptyline/>
-		<string>Der Quellcode dieser kostenlosen und quelloffenen Applikation ist verfügbar auf:</string>
+		<string>Kod źródłowy tej darmowej i open-source-owej aplikacji jest dostępny pod adresem:</string>
 		<link href="http://code.google.com/p/openintents"/>
 		<emptyline/>
-		<string>Eigentschaften:</string>
-		<listitem>Zeigt eine Liste der Dateien mit Vorschauen für Bilder.</listitem>
-		<listitem>Move, copy, rename, and delete files.</listitem>
-		<listitem>Erstellt und löscht Ordner.</listitem>
-		<listitem>Dateien via e-Mail versenden</listitem>
-		<listitem>Dient als Erweiterung für andere Applikationen, wie GMail, zum Anfügen von Dateien.</listitem>
-		<listitem>Support for many file endings and mime types.</listitem>
-		<listitem>Unterstützt PICK_FILE und PICK_DIRECTORY Anfragen, sodass andere Applikationen den OI Dateimanager nutzen können.</listitem>
+		<string>Cechy:</string>
+		<listitem>Pokaż listę plików z miniaturami obrazów.</listitem>
+		<listitem>Przenosić, kopiować, zmieniać nazwy i usuwać pliki.</listitem>
+		<listitem>Tworzenie i usuwanie katalogów (folderów).</listitem>
+		<listitem>Wysyłanie plików e-mailem.</listitem>
+		<listitem>Działa jako rozszerzenie do innych aplikacji, takich jak GMail, aby dołącząć pliki.</listitem>
+		<listitem>Wsparcie dla wielu rozszerzeń plików i typów MIME.</listitem>
+		<listitem>Obsługuje PICK_FILE i PICK_DIRECTORY, tak aby inne aplikacje mogły korzystać z OI File Manager.</listitem>
 		<emptyline/>
 		<string>Available extensions for "OI File Manager":</string>
 		<listitem>Show the license information with "OI About".</listitem>
@@ -40,13 +39,13 @@
 		<string>Applications that work with "OI File Manager":</string>
 		<listitem>Open and save text files in "OI Notepad".</listitem>
 		<emptyline/>
-		<string>Schlüsselwörter:</string>
+		<string>Słowa kluczowe:</string>
 		<!--  Keywords: List several related key words and variations in your language and in English that people might search for. -->
-		<listitem>Dateimanager</listitem>
+		<listitem>menedżer plików, menedżer plików, eksplorator plików</listitem>
 		<!--  Keep these keywords untranslated, or list the English version and a translation of the company name into your language in variations that people might search for. -->
 		<listitem>OI, IO, OpenIntents, Open Intents</listitem>
 		<emptyline/>
-		<string>International versions:</string>
+		<string>Wersje międzynarodowe:</string>
 		<international/>
 		<emptyline/>
 		<string>Search strings for Market:</string>
@@ -67,18 +66,18 @@
 		<string>Advanced features like encryption, import/export, and voice memos are all available through extensions.</string>
 		<string>All of this functionality is brought together in a simplistic and efficient layout, customizable through a variety of themes.</string>
 		<emptyline/>
-		<string>Diese Applikation ist werbefrei und benötigt keine Internetverbindung.</string>
+		<string>Ta aplikacja jest darmowa i nie wymaga dostępu do internetu.</string>
 		<emptyline/>
-		<string>Der Quellcode dieser kostenlosen und quelloffenen Applikation ist verfügbar auf:</string>
+		<string>Kod źródłowy tej darmowej i open-source-owej aplikacji jest dostępny pod adresem:</string>
 		<link href="http://code.google.com/p/openintents"/>
 		<emptyline/>
-		<string>Für eine vollständige Liste der Änderungen und häufig gestellten Fragen besuchen sie bitte:</string>
+		<string>Aby zobaczyć pełną listę zmian oraz FAQ, odwiedź:</string>
 		<link href="http://www.openintents.org"/>
 		<emptyline/>
-		<string>Sie können uns mit der Verbesserung der Übersetzung in ihre Sprache auf Launchpad unterstützen:</string>
+		<string>Możesz poprawić tłumaczenie na Twój język:</string>
 		<link href="https://translations.launchpad.net/openintents/trunk"/>
 		<emptyline/>
-		<string>Eigentschaften:</string>
+		<string>Cechy:</string>
 		<listitem>Add, edit and delete notes.</listitem>
 		<listitem>Long-press on notes to add tags.</listitem>
 		<listitem>Change font size and sort order.</listitem>
@@ -100,11 +99,11 @@
 		<listitem>Update with "OI Update".</listitem>
 		<listitem>Share notes through "Facebook", "Gmail", "Google+", "Twitter", and many other applications.</listitem>
 		<emptyline/>
-		<string>Schlüsselwörter:</string>
+		<string>Słowa kluczowe:</string>
 		<listitem>Note, Notepad, Note book, Notes</listitem>
 		<listitem>OI, OpenIntents, Open Intents</listitem>
 		<emptyline/>
-		<string>International versions:</string>
+		<string>Wersje międzynarodowe:</string>
 		<international/>
 		<emptyline/>
 		<string>Search strings for Market:</string>

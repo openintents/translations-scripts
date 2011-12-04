@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <main>
 	<translators>Launchpad Contributions:
-  Debug Mode https://launchpad.net/~thedebugmode
-  OpenIntents devs https://launchpad.net/~openintents-devs</translators>
+  Neta Oren https://launchpad.net/~netao212</translators>
 	<description application="filemanager/FileManager">
 		<!--  OI File Manager -->
 		<!--  -->
@@ -11,28 +10,29 @@
 		<!--  (Put each sentence in a separate line. Each sentence is translated separately) -->
 		<!--  -->
 		<!--  Description of application -->
-		<string>Der OI Dateimanager ermöglicht das Durchstöbern der SD Karte, die Erstellung von Ordnern und das Umbenennen, Kopieren, Verschieben und Löschen von Dateien.</string>
-		<string>Es dient auch als Erweiterung für andere Applikationen zur Darstellung von "Öffnen" und "Speichern" Dialogen.</string>
+		<string>מנהל קבצים OI נותן לך לדפדף בכרטיס הדיגיטלי המאובטח שלך,
+ליצור ספריות, לשנות שם, להעתיק, להעביר ולמחוק קבצים</string>
+		<string>הוא גם פועל כהרחבה לאפליקציות אחרות ומציג דיאלוגי "פתח" ו"שמור".</string>
 		<emptyline/>
-		<string>Diese Applikation ist werbefrei und benötigt keine Internetverbindung.</string>
+		<string>באפליקציה זאת אין פרסומות והיא לא דורשת אישור אינטרנט.</string>
 		<emptyline/>
-		<string>Für eine vollständige Liste der Änderungen und häufig gestellten Fragen besuchen sie bitte:</string>
+		<string>לרשימה המלאה של שינויים ולרשימה של שאלות נפוצות אנא לכו אל:</string>
 		<link href="http://www.openintents.org"/>
 		<emptyline/>
-		<string>Sie können uns mit der Verbesserung der Übersetzung in ihre Sprache auf Launchpad unterstützen:</string>
+		<string>אתם יכולים לעזור לשפר את התרגום בשפתכם ב-Launchpad:</string>
 		<link href="https://translations.launchpad.net/openintents/trunk"/>
 		<emptyline/>
-		<string>Der Quellcode dieser kostenlosen und quelloffenen Applikation ist verfügbar auf:</string>
+		<string>קוד המקור של אפליקציה חינמית ובלע תקוד פתוח זמין אצל:</string>
 		<link href="http://code.google.com/p/openintents"/>
 		<emptyline/>
-		<string>Eigentschaften:</string>
-		<listitem>Zeigt eine Liste der Dateien mit Vorschauen für Bilder.</listitem>
-		<listitem>Move, copy, rename, and delete files.</listitem>
-		<listitem>Erstellt und löscht Ordner.</listitem>
-		<listitem>Dateien via e-Mail versenden</listitem>
-		<listitem>Dient als Erweiterung für andere Applikationen, wie GMail, zum Anfügen von Dateien.</listitem>
-		<listitem>Support for many file endings and mime types.</listitem>
-		<listitem>Unterstützt PICK_FILE und PICK_DIRECTORY Anfragen, sodass andere Applikationen den OI Dateimanager nutzen können.</listitem>
+		<string>מאפיינים:</string>
+		<listitem>הראה רשימה של קבצים עם תמונה ממוזערת בשביל תמונות</listitem>
+		<listitem>העבר, העתק, שנה שם ומחק קבצים.</listitem>
+		<listitem>צור ומחק ספריות (תיקיות).</listitem>
+		<listitem>שלח קבצים באי מייל.</listitem>
+		<listitem>פועל כהרחבה לאפליקציות אחרות, כמו GMail, כדי לצרף קבצים.</listitem>
+		<listitem>תומך בסיומות רבות של קבצים ובסוגי חיקוי (Mime).</listitem>
+		<listitem>תומך בכוונות PICK_FILE ו- PICK_DIRECTORY כך שאפליקציות אחרות יוכלו להשתמש במנהל קבצים OI.</listitem>
 		<emptyline/>
 		<string>Available extensions for "OI File Manager":</string>
 		<listitem>Show the license information with "OI About".</listitem>
@@ -40,13 +40,13 @@
 		<string>Applications that work with "OI File Manager":</string>
 		<listitem>Open and save text files in "OI Notepad".</listitem>
 		<emptyline/>
-		<string>Schlüsselwörter:</string>
+		<string>מילות מפתח:</string>
 		<!--  Keywords: List several related key words and variations in your language and in English that people might search for. -->
-		<listitem>Dateimanager</listitem>
+		<listitem>מנהל קבצים, סייר קבצים</listitem>
 		<!--  Keep these keywords untranslated, or list the English version and a translation of the company name into your language in variations that people might search for. -->
 		<listitem>OI, IO, OpenIntents, Open Intents</listitem>
 		<emptyline/>
-		<string>International versions:</string>
+		<string>גרסאות בין-לאומיות:</string>
 		<international/>
 		<emptyline/>
 		<string>Search strings for Market:</string>
@@ -67,18 +67,18 @@
 		<string>Advanced features like encryption, import/export, and voice memos are all available through extensions.</string>
 		<string>All of this functionality is brought together in a simplistic and efficient layout, customizable through a variety of themes.</string>
 		<emptyline/>
-		<string>Diese Applikation ist werbefrei und benötigt keine Internetverbindung.</string>
+		<string>באפליקציה זאת אין פרסומות והיא לא דורשת אישור אינטרנט.</string>
 		<emptyline/>
-		<string>Der Quellcode dieser kostenlosen und quelloffenen Applikation ist verfügbar auf:</string>
+		<string>קוד המקור של אפליקציה חינמית ובלע תקוד פתוח זמין אצל:</string>
 		<link href="http://code.google.com/p/openintents"/>
 		<emptyline/>
-		<string>Für eine vollständige Liste der Änderungen und häufig gestellten Fragen besuchen sie bitte:</string>
+		<string>לרשימה המלאה של שינויים ולרשימה של שאלות נפוצות אנא לכו אל:</string>
 		<link href="http://www.openintents.org"/>
 		<emptyline/>
-		<string>Sie können uns mit der Verbesserung der Übersetzung in ihre Sprache auf Launchpad unterstützen:</string>
+		<string>אתם יכולים לעזור לשפר את התרגום בשפתכם ב-Launchpad:</string>
 		<link href="https://translations.launchpad.net/openintents/trunk"/>
 		<emptyline/>
-		<string>Eigentschaften:</string>
+		<string>מאפיינים:</string>
 		<listitem>Add, edit and delete notes.</listitem>
 		<listitem>Long-press on notes to add tags.</listitem>
 		<listitem>Change font size and sort order.</listitem>
@@ -100,11 +100,11 @@
 		<listitem>Update with "OI Update".</listitem>
 		<listitem>Share notes through "Facebook", "Gmail", "Google+", "Twitter", and many other applications.</listitem>
 		<emptyline/>
-		<string>Schlüsselwörter:</string>
+		<string>מילות מפתח:</string>
 		<listitem>Note, Notepad, Note book, Notes</listitem>
 		<listitem>OI, OpenIntents, Open Intents</listitem>
 		<emptyline/>
-		<string>International versions:</string>
+		<string>גרסאות בין-לאומיות:</string>
 		<international/>
 		<emptyline/>
 		<string>Search strings for Market:</string>
