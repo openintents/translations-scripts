@@ -7,13 +7,11 @@
 #
 
 ## Uncomment the following lines to translate individual apps:
-shoppinglist shoppinglist/ShoppingList
-STOP
 #aboutapp aboutapp/AboutApp
 #STOP
 
 aboutapp aboutapp/AboutApp
-colorpicker colorpicker/ColorPicker
+#colorpicker colorpicker/ColorPicker
 convertcsv convertcsv/ConvertCSV
 countdown countdown/Countdown
 descriptions translations/descriptions

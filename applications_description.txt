@@ -7,8 +7,6 @@
 #
 
 ## Uncomment the following lines to translate individual apps:
-shoppinglist shoppinglist/ShoppingList
-STOP
 #aboutapp aboutapp/AboutApp
 #STOP
 
