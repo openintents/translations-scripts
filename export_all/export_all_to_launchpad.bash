@@ -9,6 +9,7 @@
 # Feb 12, 2011: Peli: Implement "STOP" command.
 # Jan 9, 2012: Peli: Handle DOS file ending
 # Jan 19, 2012: Peli: add option manualdownload.
+# May 27, 2012: Peli: adapt for github
 
 # Suppress generation of .po file:
 nopo=
@@ -23,14 +24,14 @@ function execute
 {
 	translationfilename=$1
 	mainpath=$2
-	scriptpath=../../$mainpath/translations
-	translationspath=translations_$translationfilename
+	#scriptpath=../../$mainpath/translations
+	translationspath=../../export/translations_$translationfilename
 	echo "Translating $mainpath"
-	mkdir translations_$translationfilename
-	rm translations_$translationfilename/*.po
-	rm translations_$translationfilename/*.pot
+	mkdir $translationspath
+	rm $translationspath/*.po
+	rm $translationspath/*.pot
 	echo "$nopo"
-	../scripts/androidxml2po.bash -lp "../import_all/translations/export_all/translations_$translationfilename" -a "../../$mainpath" -n "$translationfilename" -ex "translations_$translationfilename" $nopo $notimestamp $manualdownload -e
+	../scripts/androidxml2po.bash -lp "../../import/translations_$translationfilename" -a "../../../$mainpath" -n "$translationfilename" -ex "$translationspath" $nopo $notimestamp $manualdownload -e
 }
 
 manualdownload=""
