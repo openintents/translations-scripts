@@ -2,14 +2,15 @@ Instructions for automatically translating all OI apps at Launchpad
 ===================================================================
 
 The local directory layout of github repositories must be the following:
-    - aboutapp                    (aboutapp.git)
-    - convertcsv                  (convertcsv.git)
-    - ...
-    - shoppinglist                (shoppinglist.git)
-    - translations/descriptions   (translations_description.git)
-    - translations/export         (translations_export.git)
-    - translations/import         (translations_import.git)
-    - translations/scripts        (translations_scripts.git)
+    oi/aboutapp                    (aboutapp.git)
+    oi/convertcsv                  (convertcsv.git)
+    oi/...
+    oi/shoppinglist                (shoppinglist.git)
+    oi/translations/descriptions   (translations_description.git)
+    oi/translations/export         (translations_export.git)
+    oi/translations/import         (translations_import.git)
+    oi/translations/scripts        (translations_scripts.git)
+(The top directory name is arbitrary - "oi" is just an example. It is important that translation repositories are organized in subdirectories.)
 
 To synchronize all translations:
 
