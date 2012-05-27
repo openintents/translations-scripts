@@ -15,7 +15,8 @@ function execute
 	cd $gitdir
 	git add .
 	git commit -m "import translations from Launchpad"
-	git push --dry-run
+	git push
+	# git push --dry-run
 	cd $olddir
 }
 
