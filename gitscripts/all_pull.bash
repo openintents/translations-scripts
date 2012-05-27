@@ -11,7 +11,10 @@ function execute
 	mainpath=$2
 	gitdir=../../../$mainpath/..
 	echo "Pulling $mainpath"
-	git --git-dir="$gitdir/.git" --work-tree="$gitdir" pull
+	olddir=`pwd`
+	cd $gitdir
+	git pull
+	cd $olddir
 }
 
 # Read all apps that should be translated.

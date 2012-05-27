@@ -11,9 +11,12 @@ function execute
 	mainpath=$2
 	gitdir=../../../$mainpath/..
 	echo "Pushing $mainpath"
-	git --git-dir="$gitdir/.git" --work-tree="$gitdir" add .
-	git --git-dir="$gitdir/.git" --work-tree="$gitdir" commit -m "import translations from Launchpad"
-	git --git-dir="$gitdir/.git" --work-tree="$gitdir" push
+	olddir=`pwd`
+	cd $gitdir
+	git add .
+	git commit -m "import translations from Launchpad"
+	git push --dry-run
+	cd $olddir
 }
 
 # Read all apps that should be translated.

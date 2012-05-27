@@ -11,7 +11,10 @@ function execute
 	mainpath=$2
 	gitdir=../../../$mainpath/..
 	echo "Status of $mainpath"
-	git --git-dir="$gitdir/.git" --work-tree="$gitdir" status
+	olddir=`pwd`
+	cd $gitdir
+	git status
+	cd $olddir
 }
 
 # Read all apps that should be translated.
