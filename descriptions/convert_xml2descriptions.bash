@@ -4,6 +4,7 @@
 # Feb 13, 2011, Peli
 
 # Jan 9, 2012: Peli: Handle DOS file ending.
+# May 27, 2012: Peli: adapt for github
 
 # execute1: Extract application name and promo text from strings.xml
 #           of the respective application.
@@ -12,14 +13,14 @@
 function execute1
 {
 	translationfilename="$1"
-    mainpath="$2"
-	descriptionpath="../../$mainpath/../promotion/description/translations"
-	xmlpath="../../$mainpath/res"
+	mainpath="$2"
+	descriptionpath="../../../$mainpath/../promotion/description/translations"
+	xmlpath="../../../$mainpath/res"
 	xmltitle="$mainpath"
 	
 	rm $descriptionpath/*.txt
 	echo "Translating $mainpath"
-    ../scripts/descriptions2xml.bash -dp "$descriptionpath" -xp "$xmlpath" -v
+	../scripts/descriptions2xml.bash -dp "$descriptionpath" -xp "$xmlpath" -v
 }
 
 # execute2: Extract translation of description body from xml file
@@ -29,15 +30,15 @@ function execute1
 function execute2
 {
 	#translationfilename="$1"
-    #mainpath="$2"
-	rootpath="../.."
+	#mainpath="$2"
+	rootpath="../../.."
 	descriptionpath="../promotion/description/translations"
-	xmlpath="res"
+	xmlpath="../../descriptions/res"
 	xmltitle="$mainpath"
 	
 	mkdir $descriptionpath
 	echo "Translating $mainpath"
-    ../scripts/descriptions2xml.bash -r "$rootpath" -dp "$descriptionpath" -xp "$xmlpath" -e
+	../scripts/descriptions2xml.bash -r "$rootpath" -dp "$descriptionpath" -xp "$xmlpath" -e
 }
 
 

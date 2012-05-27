@@ -4,18 +4,23 @@
 # Feb 13, 2011, Peli
 
 # Jan 9, 2012: Peli: Handle DOS file ending.
+# May 27, 2012: Peli: adapt for github
+
+# Output file for all descriptions
+outfile="../../descriptions/res/values/strings.xml"
+translationspath="../../descriptions/translations"
 
 # $1..translation file name
 # $2..main path
 function execute
 {
 	translationfilename="$1"
-    mainpath="$2"
-	descriptionfile="../../$mainpath/../promotion/description/description.txt"
-	xmlfile="translations/${translationfilename}.xml"
+	mainpath="$2"
+	descriptionfile="../../../$mainpath/../promotion/description/description.txt"
+	xmlfile="../../descriptions/translations/${translationfilename}.xml"
 	xmltitle="$mainpath"
-    echo "Translating $mainpath"
-    ../scripts/descriptions2xml.bash -d "$descriptionfile" -x "$xmlfile" -t "$xmltitle" -i
+	echo "Translating $mainpath"
+	../scripts/descriptions2xml.bash -d "$descriptionfile" -x "$xmlfile" -t "$xmltitle" -i
 }
 
 # Read all apps that should be translated.
@@ -39,9 +44,8 @@ do
 done
 
 # Copy all descriptions together
-outfile="res/values/strings.xml"
 echo '<?xml version="1.0" encoding="utf-8"?>' > "$outfile"
 echo '<main>' >> "$outfile"
 echo '	<translators>translator-credits</translators>' >> "$outfile"
-cat translations/* >> "$outfile"
+cat $translationspath/* >> "$outfile"
 echo '</main>' >> "$outfile"
