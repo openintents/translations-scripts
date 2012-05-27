@@ -7,6 +7,7 @@
 # Feb 12, 2011: Peli: Implement "STOP" command.
 # Jan 9, 2012: Peli: Handle DOS file ending.
 # Jan 19, 2012: Peli: add option manualdownload.
+# May 27, 2012: Peli: adapt for github
 
 # $1..translation file name
 # $2..main path
@@ -14,9 +15,9 @@ function execute
 {
 	translationfilename="$1"
 	mainpath="$2"
-	scriptpath="../../$mainpath/translations"
+	# scriptpath="../../../$mainpath/translations"
 	echo "Translating $mainpath"
-	../scripts/androidxml2po.bash -lp "translations/export_all/translations_$translationfilename" -a "../../$mainpath" -n "$translationfilename" $manualdownload -i
+	../scripts/androidxml2po.bash -lp "../../import/translations_$translationfilename" -a "../../../$mainpath" -n "$translationfilename" $manualdownload -i
 }
 
 manualdownload=""
