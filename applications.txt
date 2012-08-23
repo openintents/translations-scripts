@@ -22,3 +22,4 @@ notepad notepad/NotePad
 safe safe/Safe
 shoppinglist shoppinglist/ShoppingList
 #updatechecker UpdateCheckerApp
+wifiserver wifiserver/WiFiServer
