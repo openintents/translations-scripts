@@ -11,6 +11,7 @@ The local directory layout of github repositories must be the following:
     oi/translations/export         (translations_export.git)
     oi/translations/import         (translations_import.git)
     oi/translations/scripts        (translations_scripts.git)
+    oi/wifiserver                  (wifiserver.git)
 
 (The top directory name is arbitrary - "oi" is just an example. It is important that translation repositories are organized in subdirectories.)
 
